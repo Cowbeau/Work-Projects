@@ -20,7 +20,7 @@ def send_email():
     message.attach(MIMEText(body, 'plain'))
 
     # Send email using SMTP server
-    smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
+    smtp_server = smtplib.SMTP('smtp.office365.com', 587)
     smtp_server.starttls()
     smtp_server.login(from_email, 'your-password-here')
     smtp_server.sendmail(from_email, to_email, message.as_string())
