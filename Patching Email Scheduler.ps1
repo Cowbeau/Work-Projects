@@ -1,9 +1,9 @@
 # Set email parameters
-$smtpServer = "smtp.gmail.com"
+$smtpServer = "smtp.office365.com"
 $smtpPort = "587"
-$senderEmail = "your_email@gmail.com"
+$senderEmail = "your_email@outlook.com"
 $senderPassword = "your_password"
-$receiverEmail = "receiver_email@gmail.com"
+$receiverEmail = "receiver_email@outlook.com"
 $subject = "Email Subject Goes Here"
 
 # Determine the date of the third Tuesday of the current month
